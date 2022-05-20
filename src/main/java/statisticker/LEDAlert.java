@@ -10,6 +10,7 @@ public class LEDAlert implements IAlerter{
 	@Override
 	public void reportAlerts() {
 		LOGGER.info(" LED Glows ");
+		ledGlows = true;
 	}
 
 }
