@@ -11,6 +11,7 @@ public class EmailAlert implements IAlerter {
 	public void reportAlerts() {
 		
 		LOGGER.info(" Email Alert reported !!");
+		emailSent = true;
 	}
 
 }
